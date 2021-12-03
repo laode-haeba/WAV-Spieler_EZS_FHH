@@ -6,7 +6,7 @@
 
 ## Noch Nicht: 
 - GUI 
-- Testen von Digitales Filter
+- Die Digitales Filter zu testen
 
 ## Problem: 
 - Wenn WAV-Datei zu groß ist (Ich hatte mit >40Mb getestet und das Programm hält sich). 

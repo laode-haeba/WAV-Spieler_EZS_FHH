@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="windows_cbp" />
+		<Option pch_mode="2" />
+		<Option compiler="bcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/windows_cbp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="bcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add library="../graphapp_3_60_bcc.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-w" />
+			<Add directory="../../wav_player_lsg" />
+		</Compiler>
+		<Linker>
+			<Add library="cw32mt.lib" />
+			<Add library="import32.lib" />
+		</Linker>
+		<Unit filename="../app_3_60_bcc.h" />
+		<Unit filename="../cplx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../cplx.h" />
+		<Unit filename="../dig_filter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../dig_filter.h" />
+		<Unit filename="../echo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../echo.h" />
+		<Unit filename="../globals.h" />
+		<Unit filename="../graphapp_3_60_bcc.h" />
+		<Unit filename="../gui.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gui.h" />
+		<Unit filename="../gui_plotter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../gui_plotter.h" />
+		<Unit filename="../player_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../player_thread.h" />
+		<Unit filename="../plotter_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../plotter_thread.h" />
+		<Unit filename="../ptl_codecontrol.h" />
+		<Unit filename="../ptl_lib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../ptl_lib.h" />
+		<Unit filename="../snd_codecontrol.h" />
+		<Unit filename="../snd_lib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../snd_lib.h" />
+		<Unit filename="../wav_player_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

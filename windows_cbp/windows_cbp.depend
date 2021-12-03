@@ -1,0 +1,277 @@
+# depslib dependency file v1.0
+1594891598 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\cplx.c
+	<stdio.h>
+	<math.h>
+	"cplx.h"
+
+1594891598 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\cplx.h
+
+1596007544 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\dig_filter.c
+	<stdio.h>
+	<math.h>
+	"dig_filter.h"
+	"cplx.h"
+
+1596006134 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\dig_filter.h
+
+1596015150 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\echo.c
+	<stdio.h>
+	<stdlib.h>
+	"echo.h"
+	"globals.h"
+
+1596013224 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\echo.h
+	"snd_lib.h"
+
+1591445204 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\snd_lib.h
+	"snd_codecontrol.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<linux/soundcard.h>
+	<alsa/asoundlib.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<limits.h>
+	<mmsystem.h>
+	<stdio.h>
+	<stdlib.h>
+	"snd_lib.h"
+	<stdio.h>
+	<stdlib.h>
+	"snd_lib.h"
+	<stdio.h>
+	<stdlib.h>
+	"snd_lib.h"
+
+1591259956 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\snd_codecontrol.h
+
+1596012840 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\globals.h
+	"ptl_lib.h"
+	"dig_filter.h"
+	"echo.h"
+
+1286283734 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\ptl_lib.h
+	"ptl_codecontrol.h"
+	<pthread.h>
+	<semaphore.h>
+	<windows.h>
+	<limits.h>
+
+1286283734 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\ptl_codecontrol.h
+
+1596023036 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\gui.c
+	<math.h>
+	"ptl_lib.h"
+	"dig_filter.h"
+	"echo.h"
+	"globals.h"
+	"gui.h"
+	"gui_plotter.h"
+
+1596015512 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\gui.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"graphapp.h"
+	"graphapp_3_60_bcc.h"
+
+1235994534 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\graphapp_3_60_bcc.h
+	<app_3_60_bcc.h>
+
+1235994536 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\app_3_60_bcc.h
+
+1595874034 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\gui_plotter.h
+	"gui.h"
+
+1596015576 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\gui_plotter.c
+	<math.h>
+	"globals.h"
+	"gui_plotter.h"
+
+1596013096 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\player_thread.c
+	"player_thread.h"
+	"dig_filter.h"
+	"echo.h"
+
+1286287514 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\player_thread.h
+	"ptl_lib.h"
+	"snd_lib.h"
+	"globals.h"
+
+1286283734 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\ptl_lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ptl_lib.h"
+	<errno.h>
+	<time.h>
+
+1596450635 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\snd_lib.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<math.h>
+	<string.h>
+	"snd_lib.h"
+
+1595875792 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\wav_player_main.c
+	<stdio.h>
+	<string.h>
+	"ptl_lib.h"
+	"snd_lib.h"
+	"globals.h"
+	"player_thread.h"
+	"plotter_thread.h"
+	"gui.h"
+
+1595875656 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\plotter_thread.h
+	"ptl_lib.h"
+	"globals.h"
+
+1596450453 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_lsg\plotter_thread.c
+	<stdio.h>
+	<math.h>
+	"plotter_thread.h"
+	"dig_filter.h"
+
+1594891598 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\cplx.c
+	<stdio.h>
+	<math.h>
+	"cplx.h"
+
+1594891598 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\cplx.h
+
+1596887544 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\dig_filter.c
+	<stdio.h>
+	<math.h>
+	"dig_filter.h"
+	"cplx.h"
+
+1596006134 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\dig_filter.h
+
+1596887307 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\echo.c
+	<stdio.h>
+	<stdlib.h>
+	"echo.h"
+	"globals.h"
+
+1596013224 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\echo.h
+	"snd_lib.h"
+
+1591445204 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\snd_lib.h
+	"snd_codecontrol.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<linux/soundcard.h>
+	<alsa/asoundlib.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<limits.h>
+	<mmsystem.h>
+	<stdio.h>
+	<stdlib.h>
+	"snd_lib.h"
+	<stdio.h>
+	<stdlib.h>
+	"snd_lib.h"
+	<stdio.h>
+	<stdlib.h>
+	"snd_lib.h"
+
+1591259956 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\snd_codecontrol.h
+
+1596012840 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\globals.h
+	"ptl_lib.h"
+	"dig_filter.h"
+	"echo.h"
+
+1286283734 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\ptl_lib.h
+	"ptl_codecontrol.h"
+	<pthread.h>
+	<semaphore.h>
+	<windows.h>
+	<limits.h>
+
+1286283734 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\ptl_codecontrol.h
+
+1596886944 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\gui.c
+	<math.h>
+	"ptl_lib.h"
+	"dig_filter.h"
+	"echo.h"
+	"globals.h"
+	"gui.h"
+	"gui_plotter.h"
+
+1596015512 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\gui.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"graphapp.h"
+	"graphapp_3_60_bcc.h"
+
+1235994534 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\graphapp_3_60_bcc.h
+	<app_3_60_bcc.h>
+
+1595874034 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\gui_plotter.h
+	"gui.h"
+
+1596015576 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\gui_plotter.c
+	<math.h>
+	"globals.h"
+	"gui_plotter.h"
+
+1596887080 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\player_thread.c
+	"player_thread.h"
+	"dig_filter.h"
+	"echo.h"
+
+1286287514 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\player_thread.h
+	"ptl_lib.h"
+	"snd_lib.h"
+	"globals.h"
+
+1596887175 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\plotter_thread.c
+	<stdio.h>
+	<math.h>
+	"plotter_thread.h"
+	"dig_filter.h"
+
+1595875656 e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\plotter_thread.h
+	"ptl_lib.h"
+	"globals.h"
+
+1286283734 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\ptl_lib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ptl_lib.h"
+	<errno.h>
+	<time.h>
+
+1596450634 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\snd_lib.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<math.h>
+	<string.h>
+	"snd_lib.h"
+
+1595875792 source:e:\eforgber\fh-hannover\ezs\uebungen_echtzeitsysteme\projektwavplayer\wav_player_v02\src\wav_player_v02\wav_player_v2_getting_started\wav_player_main.c
+	<stdio.h>
+	<string.h>
+	"ptl_lib.h"
+	"snd_lib.h"
+	"globals.h"
+	"player_thread.h"
+	"plotter_thread.h"
+	"gui.h"
+

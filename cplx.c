@@ -10,8 +10,6 @@ Gruppe:     -
 #include <math.h>
 #include "cplx.h"
 
-
-
 double real(cplx z){
     return z.r;
 }

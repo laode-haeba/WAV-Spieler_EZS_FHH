@@ -1,4 +1,5 @@
 /* globals.h */
+/*Irvan Rizqullah Fikardi (MN: 1484213) und Sinan Kocak (MN: 1502451)*/
 
 #ifndef _globals_h_
 #define _globals_h_
@@ -22,6 +23,8 @@ typedef struct
    float A_TP,A_BP,A_HP; /* Gewichte Equalizer, Werte -1...10 */
    IIR_2_coeff_t TP,BP,HP;
    float B; /* Gewichtung nach Equ., Uebersteuerung vermeiden, 0<B<1 */
+   float volume; //Lautstärke
+   float Q;
 }sRam_t;
 
 /* struct shared RAM plot window */

@@ -13,7 +13,7 @@
 
 
 /* #include <app.h> */
-#include <app_3_60_bcc.h>
+#include "app_3_60_bcc.h"
 
 #define activate_control             app_activate_control
 #define add_button                   app_add_button

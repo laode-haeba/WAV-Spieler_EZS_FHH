@@ -15,9 +15,6 @@ double i;
 } cplx;
 
 
-
-
-
 double real(cplx z);
 double imag(cplx z);
 double betrag(cplx z);

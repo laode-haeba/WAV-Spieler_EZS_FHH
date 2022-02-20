@@ -1,7 +1,4 @@
-/* main.c :
-WAV-Player mit integriertem Equalizer
-
-*/
+/*Irvan Rizqullah Fikardi (MN: 1484213) und Sinan Kocak (MN: 1502451)*/
 
 #include <stdio.h>
 #include <string.h>
@@ -29,10 +26,6 @@ void UserInterface(void);
 int  PrintMenue(void);
 void ExecuteMenue(int c);
 
-
-
-
-
 /*---------------------------------------------*/
 
 int main(int argc, char *argv[])
@@ -55,7 +48,7 @@ int main(int argc, char *argv[])
     }
 
 
-#if 1
+#if 0
     /* Textmenue */
     UserInterface();
     /* Thread-Ende kommandieren: */
@@ -71,8 +64,6 @@ int main(int argc, char *argv[])
 #else
     gui(argc, argv);
 #endif
-
-
     return 0;
 }
 /*---------------------------------------------*/
@@ -86,15 +77,18 @@ void CreateSemaphores(void)
 void InitGlobals(void)
 {   int i;
 
-    strcpy(sRam.Dateiname, "");
-    sRam.cmd_play = 0; // nicht spielen
-    sRam.cmd_end  = 0; // Thread soll weiter laufen
+    strcpy(sRam.Dateiname, "E:/ezs/wav_player_v2_getting_started/wav/PhilCol.wav"); //zum testen ob Option B geht oder nicht
+    sRam.cmd_play = 0;                     // nicht spielen
+    sRam.cmd_end  = 0;                     // Thread soll weiter laufen
     sRam.flag_EQ_is_active =0;   /*  ohne EQ */
     sRam.flag_Echo_is_active =0; /*  ohne Echo */
     sRam.A_TP = 0;
     sRam.A_BP = 0;
     sRam.A_HP = 0;
     sRam.B = 1.0;
+
+    sRam.volume = 5;  //sonst muss Lautstäre erstmal eingesellet werden,
+                      // bevor sound aus dem Lautsprecher kommt
 
     for(i=0; i< N_PLOT_POINTS; i++)
     {   plot_data.f_Hz[i] = 0;

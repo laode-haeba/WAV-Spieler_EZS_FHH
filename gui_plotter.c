@@ -125,8 +125,6 @@ static void plot_H_dB_axis_and_scale(Window *w, Graphics *g, Trafo_t t)
         sprintf(strbuf,"%3d",i);
         draw_utf8(g, pt(t.border_x-30,py_H-10), strbuf, strlen(strbuf));
     }
-
-
 }
 /*-------------------------------------------------------------*/
 static void plot_H_db_over_frequency(Window *w, Graphics *g, Trafo_t t)
